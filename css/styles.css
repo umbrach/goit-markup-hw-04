@@ -133,6 +133,10 @@ img {
   margin-right: 50px;
 }
 
+.link-svg {
+  margin-right: 10px;
+}
+
 /* Main sections */
 
 .section {
@@ -197,13 +201,26 @@ img {
   display: flex;
 }
 
-.feature-list .item::before {
+.feature-list .item-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+}
+
+/* .feature-list .item::before {
   content: '';
   display: block;
   width: 270px;
   height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
   background-color: #f5f4fa;
-}
+} */
 
 .feature-list .item:not(:last-child) {
   margin-right: 30px;
@@ -225,6 +242,11 @@ img {
   font-size: 14px;
   line-height: 1.71;
 }
+
+/* .feature-list .item {
+  display: inline-flex;
+  justify-content: center;
+} */
 
 /* Job description */
 
