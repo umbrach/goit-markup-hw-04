@@ -11,7 +11,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --icons-color: #afb1b8;
-  --footer-bg-color: #2f303a;
+  --bg-color: #2f303a;
 }
 
 body {
@@ -159,7 +159,7 @@ img {
 /* Hero */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bg-color);
   text-align: center;
 }
 
@@ -377,7 +377,7 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-color: var(--footer-bg-color);
+  background-color: var(--bg-color);
 }
 
 .page-footer .container {
