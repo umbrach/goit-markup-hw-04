@@ -364,6 +364,7 @@ img {
 .clients-button:hover,
 .clients-button:focus {
   color: var(--accent-color);
+  outline-color: var(--accent-color);
 }
 
 .clients-svg {
