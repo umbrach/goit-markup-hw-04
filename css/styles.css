@@ -407,6 +407,7 @@ img {
 }
 
 .logo-secondary:hover,
+.logo-secondary:focus,
 .logo-accent:focus {
   color: var(--accent-color);
 }
@@ -421,7 +422,7 @@ img {
 }
 
 .address:hover,
-.adress:focus {
+.address:focus {
   color: var(--accent-color);
 }
 
@@ -482,7 +483,7 @@ img {
   background-color: var(--accent-color);
 }
 
-.footer-network-button:focus {
+.network-link:focus .footer-network-button {
   background-color: var(--accent-color);
 }
 
