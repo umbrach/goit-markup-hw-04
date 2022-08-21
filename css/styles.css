@@ -3,6 +3,7 @@
 /* акцент #2196F3 */
 /* білий колір #FFFFFF */
 /* білий колір футер rgba(255, 255, 255, 0.6) */
+/* колір фону футера  */
 
 :root {
   --primary-text-color: #212121;
@@ -10,6 +11,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --icons-color: #afb1b8;
+  --footer-bg-color: #2f303a;
 }
 
 body {
@@ -374,13 +376,11 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-color: #2f303a;
+  background-color: var(--footer-bg-color);
 }
 
 .page-footer .container {
   display: flex;
-  justify-items: center;
-  align-items: center;
 }
 
 .logo-secondary {
@@ -438,6 +438,52 @@ img {
 .footer-link .link:hover,
 .footer-link .link:focus {
   color: var(--accent-color);
+}
+
+.footer-network {
+  margin-left: 70px;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.footer-network-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-network-list li + li {
+  margin-left: 10px;
+}
+
+.footer-network-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--primary-white-color);
+}
+
+.footer-network-button:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-network-button:focus {
+  background-color: var(--accent-color);
 }
 
 /* Portfolio Page */
