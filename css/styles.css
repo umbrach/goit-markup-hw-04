@@ -298,8 +298,6 @@ img {
 .network {
   display: flex;
   justify-content: center;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 .network li + li {
